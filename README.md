@@ -6,6 +6,8 @@ Projeto desenvolvido durante meus estudos em Análise e Desenvolvimento de Siste
 
 ## Funcionalidades implementadas
 
+- Alerta de estoque baixo para produtos com 5 unidades ou menos.
+- Identificação de produtos sem estoque.
 - Exclusão de produtos com confirmação.
 - Atualização da quantidade de produtos cadastrados.
 - Cadastro de produtos com nome, quantidade e preço.
@@ -27,9 +29,6 @@ Projeto desenvolvido durante meus estudos em Análise e Desenvolvimento de Siste
 
 ## Próximas melhorias
 
-- Atualizar informações dos produtos.
-- Excluir produtos cadastrados.
-- Criar alertas para estoque baixo.
 - Salvar os dados em arquivo CSV.
 
 ## Objetivo
