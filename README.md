@@ -6,6 +6,7 @@ Projeto desenvolvido durante meus estudos em Análise e Desenvolvimento de Siste
 
 ## Funcionalidades implementadas
 
+- Exclusão de produtos com confirmação.
 - Atualização da quantidade de produtos cadastrados.
 - Cadastro de produtos com nome, quantidade e preço.
 - Consulta dos produtos cadastrados.
