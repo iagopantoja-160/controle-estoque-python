@@ -6,6 +6,9 @@ Projeto desenvolvido durante meus estudos em Análise e Desenvolvimento de Siste
 
 ## Funcionalidades implementadas
 
+- Salvamento automático dos produtos em arquivo CSV.
+- Carregamento dos produtos salvos ao iniciar o sistema.
+- Armazenamento do arquivo CSV no Google Drive para manter os dados entre sessões do Google Colab.
 - Cálculo do valor total do estoque, considerando a quantidade e o preço unitário de cada produto.
 - Alerta de estoque baixo para produtos com 5 unidades ou menos.
 - Identificação de produtos sem estoque.
@@ -28,9 +31,15 @@ Projeto desenvolvido durante meus estudos em Análise e Desenvolvimento de Siste
 3. Execute a célula que contém o código.
 4. Utilize o menu para cadastrar e consultar produtos.
 
-## Próximas melhorias
+### Como executar no Google Colab
 
-- Salvar os dados em arquivo CSV.
+1. Abra o notebook `.ipynb` no Google Colab.
+2. Execute a primeira célula para conectar sua conta do Google Drive.
+3. Execute a segunda célula para criar a pasta onde o arquivo CSV será armazenado.
+4. Execute a terceira célula para iniciar o sistema.
+5. Utilize o menu para cadastrar, consultar, atualizar ou excluir produtos.
+
+**Observação:** os produtos são salvos automaticamente no arquivo `estoque.csv`, dentro da pasta `controle-estoque-python` no Google Drive. O arquivo é criado na primeira operação de salvamento.
 
 ## Objetivo
 
