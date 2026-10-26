@@ -6,6 +6,7 @@ Projeto desenvolvido durante meus estudos em Análise e Desenvolvimento de Siste
 
 ## Funcionalidades implementadas
 
+- Cálculo do valor total do estoque, considerando a quantidade e o preço unitário de cada produto.
 - Alerta de estoque baixo para produtos com 5 unidades ou menos.
 - Identificação de produtos sem estoque.
 - Exclusão de produtos com confirmação.
